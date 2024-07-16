@@ -2,10 +2,12 @@
 #include <stdio.h>
 #include <unistd.h> //this code is compiled from Ubuntu WSL so i can't use "windows.h"
 #include <time.h>
+#include "header/vector.h"
+#include "header/particle.h"
 #define NUM_PARTICLES 1
 
 // Vettore 2-D
-typedef struct {
+/* typedef struct {
     float x;
     float y;
 } Vector2; //declaration a 2-D vector
@@ -15,7 +17,7 @@ typedef struct {
     Vector2 velocity;
     float mass;
 } Particle; //declaration of the type particle
-
+*/
 Particle particles[NUM_PARTICLES];
 
 void InitializeParticles() { //Here i inizialize the position of the variable randomnly
