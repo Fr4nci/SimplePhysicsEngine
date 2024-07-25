@@ -6,5 +6,8 @@ typedef struct {
     float y;
 } Vector2;
 
+float CrossProduct(Vector2 v1, Vector2 v2);
+float DotProduct(Vector2 v1, Vector2 v2);
+Vector2 SumVectors(Vector2 v1, Vector2 v2);
 
 #endif
