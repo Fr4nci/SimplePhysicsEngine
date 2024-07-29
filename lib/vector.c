@@ -16,5 +16,5 @@ Vector2 ScMultiplication(Vector2 v1, float a){
 }
 
 float norm(Vector2 v1){
-    return(sqrt(DotProduct(v1)));
+    return(sqrt(DotProduct(v1, v1)));
 }

@@ -10,4 +10,5 @@ typedef struct {
 float DotProduct(Vector2 v1, Vector2 v2);
 Vector2 SumVectors(Vector2 v1, Vector2 v2);
 Vector2 ScMultiplication(Vector2 v1, float b);
+float norm(Vector2 v1);
 #endif
